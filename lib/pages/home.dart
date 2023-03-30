@@ -15,13 +15,13 @@ class _HomeState extends State<Home> {
     // print(data);
     //set bg
     String bgImage;
-    if (data["isDaytime"]==1) {
-      bgImage = "day.png";
+    if (data["isDaytime"] == 1) {
+      bgImage = "day3.jpg";
     } else {
-      bgImage = "night.png";
+      bgImage = "night1.jpg";
     }
     Color? bgColor;
-    if (data["isDaytime"]==0) {
+    if (data["isDaytime"] == 0) {
       bgColor = Colors.blue;
     } else {
       bgColor = Colors.indigo[700];
